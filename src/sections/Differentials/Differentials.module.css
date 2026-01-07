@@ -1,0 +1,33 @@
+.section {
+  padding: var(--spacing-4xl) var(--spacing-lg);
+  background: var(--color-dark);
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 100px;
+  background: linear-gradient(180deg, transparent, var(--color-primary), transparent);
+}
+
+.container {
+  max-width: var(--max-width-xl);
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xl);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
