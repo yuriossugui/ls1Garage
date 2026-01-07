@@ -51,19 +51,19 @@ export function Footer() {
             <address className={styles.contactInfo}>
               <div className={styles.contactItem}>
                 <span className={styles.contactIcon} aria-hidden="true">📍</span>
-                <span>Rua Exemplo, 123<br />Centro - Sua Cidade/UF</span>
+                <span>Rua Sukeichi Sano, 130<br />Parque Res. União - Sua Álvares Machado/SP</span>
               </div>
               <div className={styles.contactItem}>
                 <span className={styles.contactIcon} aria-hidden="true">📞</span>
-                <span>(00) 00000-0000</span>
+                <span>(18) 99759-0413</span>
               </div>
               <div className={styles.contactItem}>
                 <span className={styles.contactIcon} aria-hidden="true">✉️</span>
-                <span>contato@ls1garage.com.br</span>
+                <span>autols1garage@gmail.com</span>
               </div>
               <div className={styles.contactItem}>
                 <span className={styles.contactIcon} aria-hidden="true">🕐</span>
-                <span>Seg - Sex: 8h às 18h<br />Sáb: 8h às 12h</span>
+                <span>Seg - Sex: 8h às 18h<br /></span>
               </div>
             </address>
             <div className={styles.socialLinks}>
@@ -77,16 +77,7 @@ export function Footer() {
                 📷
               </a>
               <a 
-                href="https://facebook.com/ls1garage" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className={styles.socialLink}
-                aria-label="Facebook da LS1 Garage"
-              >
-                📘
-              </a>
-              <a 
-                href="https://wa.me/5500000000000" 
+                href="https://wa.me/551897590413" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className={styles.socialLink}
