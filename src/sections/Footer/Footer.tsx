@@ -51,7 +51,7 @@ export function Footer() {
             <address className={styles.contactInfo}>
               <div className={styles.contactItem}>
                 <span className={styles.contactIcon} aria-hidden="true">📍</span>
-                <span>Rua Sukeichi Sano, 130<br />Parque Res. União - Sua Álvares Machado/SP</span>
+                <span>Rua Sukeichi Sano, 130<br />Parque Res. União - Álvares Machado/SP</span>
               </div>
               <div className={styles.contactItem}>
                 <span className={styles.contactIcon} aria-hidden="true">📞</span>
