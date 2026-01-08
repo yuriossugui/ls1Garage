@@ -104,61 +104,6 @@ npm run build
 # Preview da build
 npm run preview
 ```
-
-## 📝 Configurações
-
-### WhatsApp
-
-Altere o número do WhatsApp em `src/App.tsx`:
-
-```tsx
-const whatsappNumber = '5511999999999'; // Substitua pelo número real
-```
-
-### Logo
-
-Para usar o logo real:
-1. Substitua `src/assets/logo.png` pela imagem do logo (pode ser PNG ou SVG)
-2. Atualize os imports nos arquivos se mudar a extensão
-3. Copie também para `public/` (favicon)
-
-### Dados de Contato
-
-Atualize as informações no arquivo `src/sections/Footer/Footer.tsx`:
-- Endereço
-- Telefone
-- E-mail
-- Redes sociais
-
-## 🔧 Sugestões de Melhorias
-
-### Performance
-- [ ] Implementar lazy loading para imagens
-- [ ] Adicionar service worker para cache
-- [ ] Otimizar bundle com code splitting
-
-### SEO
-- [ ] Adicionar dados estruturados (JSON-LD)
-- [ ] Implementar sitemap.xml
-- [ ] Configurar robots.txt
-- [ ] Adicionar canonical URLs
-
-### UX
-- [ ] Adicionar animações de scroll (Intersection Observer)
-- [ ] Implementar chat ao vivo
-- [ ] Adicionar mapa com localização
-- [ ] Integrar com Google Analytics
-
-### Funcionalidades
-- [ ] Conectar formulário com API real (ex: EmailJS, Formspree)
-- [ ] Adicionar sistema de agendamento online
-- [ ] Implementar galeria de trabalhos realizados
-- [ ] Adicionar seção de FAQ
-
 ## 📄 Licença
 
 Projeto desenvolvido para LS1 Garage. Todos os direitos reservados.
-
----
-
-Desenvolvido com ❤️ e ☕
