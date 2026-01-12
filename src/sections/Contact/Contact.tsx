@@ -93,6 +93,8 @@ export function Contact() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    setIsSubmitting(true);
+
     if (!validateForm()) {
       return;
     }
