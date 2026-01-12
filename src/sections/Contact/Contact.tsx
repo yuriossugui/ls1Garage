@@ -97,18 +97,13 @@ export function Contact() {
       return;
     }
 
-    setIsSubmitting(true);
+    // Monta a mensagem para o WhatsApp
+    const message = `Nome: ${formData.name}\nTelefone: ${formData.phone}\nServiço: ${serviceOptions.find(opt => opt.value === formData.service)?.label}`;
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/551897590413?text=${encodedMessage}`;
 
-    // Simula envio do formulário (em produção, conectar com API real)
-    try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      setIsSuccess(true);
-      setFormData({ name: '', phone: '', service: '' });
-    } catch {
-      alert('Erro ao enviar formulário. Tente novamente.');
-    } finally {
-      setIsSubmitting(false);
-    }
+    // Redireciona para o WhatsApp
+    window.open(whatsappUrl, '_blank');
   };
 
   // Resetar formulário após sucesso
